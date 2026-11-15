@@ -67,7 +67,7 @@ The project consists of two main nodes:
 ```text
 DISTRIBUTED-ICU-PATIENT-MONITORING-SYSTEM/
 │
-├── ICU_Transmitter/
+├── Transmitter/
 │   ├── main_tx.c
 │   ├── uart0_driver.c
 │   ├── adc_driver.c
@@ -80,7 +80,7 @@ DISTRIBUTED-ICU-PATIENT-MONITORING-SYSTEM/
 │   ├── delay.c
 │   └── header.h
 │
-├── ICU_Receiver/
+├── Receiver/
 │   ├── main_rx.c
 │   ├── uart0_driver.c
 │   ├── can1_rx_driver.c
