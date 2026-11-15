@@ -65,7 +65,7 @@ The project consists of two main nodes:
 ## Project Folder Structure
 
 ```text
-DISTRIBUTED-ICU-PATIENT-MONITORING-SYSTEM/
+DISTRIBUTED-ICU-PATIENT-MONITORING-NETWORK/
 │
 ├── Transmitter/
 │   ├── main_tx.c
@@ -97,11 +97,11 @@ The receiver node extracts the received values and displays the monitoring infor
 
 ## Applications
 
-- ICU patient monitoring systems
+- ICU patient monitoring network
 - Distributed healthcare monitoring
 - Embedded medical monitoring applications
 - Real-time sensor data communication
 
 ## Project Objective
 
-To develop a distributed embedded monitoring system that collects patient-related parameters and transfers sensor information between two microcontroller nodes using CAN communication.
+To develop a distributed embedded monitoring network that collects patient-related parameters and transfers sensor information between two microcontroller nodes using CAN communication.
