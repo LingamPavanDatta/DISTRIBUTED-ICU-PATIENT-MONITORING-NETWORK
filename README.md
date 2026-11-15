@@ -1,9 +1,9 @@
-# DISTRIBUTED-ICU-PATIENT-MONITORING-SYSTEM
-An LPC2129-based distributed ICU patient monitoring system that monitors temperature, SpO₂, and light intensity, and enables real-time sensor data communication between two nodes using CAN protocol.
+# DISTRIBUTED-ICU-PATIENT-MONITORING-NETWORK
+An LPC2129-based distributed ICU patient monitoring network that monitors temperature, SpO₂, and light intensity, and enables real-time sensor data communication between two nodes using CAN protocol.
 
 ## Project Overview
 
-An LPC2129-based distributed ICU patient monitoring system designed to monitor patient parameters such as temperature, SpO₂ (blood oxygen saturation), and light intensity. The system uses two LPC2129-based nodes, where the transmitter collects sensor data and transfers it to the receiver through CAN (Controller Area Network) communication for monitoring.
+An LPC2129-based distributed ICU patient monitoring network designed to monitor patient parameters such as temperature, SpO₂ (blood oxygen saturation), and light intensity. The system uses two LPC2129-based nodes, where the transmitter collects sensor data and transfers it to the receiver through CAN (Controller Area Network) communication for monitoring.
 
 ## Features
 
