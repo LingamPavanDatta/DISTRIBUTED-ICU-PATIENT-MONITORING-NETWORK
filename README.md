@@ -62,33 +62,6 @@ The project consists of two main nodes:
 | UART | Serial data monitoring |
 | ADC | Reading analog sensor inputs |
 
-## Project Folder Structure
-
-```text
-DISTRIBUTED-ICU-PATIENT-MONITORING-NETWORK/
-│
-├── Transmitter/
-│   ├── main_tx.c
-│   ├── uart0_driver.c
-│   ├── adc_driver.c
-│   ├── can1_tx_driver.c
-│   ├── i2c_driver_tx.c
-│   ├── max_init.c
-│   ├── max30102.h
-│   ├── spo2.c
-│   ├── spo2.h
-│   ├── delay.c
-│   └── header.h
-│
-├── Receiver/
-│   ├── main_rx.c
-│   ├── uart0_driver.c
-│   ├── can1_rx_driver.c
-│   └── head.h
-│
-└── README.md
-```
-
 ## Working Principle
 
 The transmitter node collects patient-related sensor data using the MAX30102 sensor and ADC inputs. The SpO₂ value is calculated from the RED and IR readings. The temperature, light intensity, and SpO₂ values are packed into a CAN data frame and transmitted to the receiver node.
